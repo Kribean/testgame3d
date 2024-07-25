@@ -1,5 +1,5 @@
-import { useFrame, useLoader } from "@react-three/fiber"
-import { GLTFLoader } from "three/examples/jsm/Addons.js"
+import { useFrame } from "@react-three/fiber"
+//import { GLTFLoader } from "three/examples/jsm/Addons.js"
 import { useAnimations, useGLTF } from "@react-three/drei"
 import { useEffect, useRef } from "react"
 
@@ -16,6 +16,7 @@ export const Fighter=({isChanged})=>{
        return ()=>{
         animations.actions[isChanged?'breakdance':'couppied'].fadeOut(0.5)
        }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[isChanged])
     useFrame((state,delta)=>{
         console.log("panam",danceRef.current.position.y)

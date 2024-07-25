@@ -1,9 +1,9 @@
 import React, { useRef, useEffect } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
+import {  useFrame } from "@react-three/fiber";
 import { useLoader } from "@react-three/fiber";
 import { FBXLoader } from "three/examples/jsm/loaders/FBXLoader";
 import { AnimationMixer } from "three";
-import { OrbitControls } from "@react-three/drei";
+//import { OrbitControls } from "@react-three/drei";
 
 export const Dancer = () => {
   const model = useLoader(FBXLoader, "./model/Brooklyn.fbx");

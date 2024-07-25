@@ -1,5 +1,5 @@
-import { useLoader } from "@react-three/fiber"
-import { GLTFLoader } from "three/examples/jsm/Addons.js"
+//import { useLoader } from "@react-three/fiber"
+//import { GLTFLoader } from "three/examples/jsm/Addons.js"
 import { useGLTF } from "@react-three/drei"
 useGLTF.preload("./model/multimeter_-_free.glb")
 export const Scene3D=()=>{
