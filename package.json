@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kribean.github.io/testgame3d",
   "dependencies": {
     "@react-three/drei": "^9.108.1",
     "@react-three/fiber": "^8.16.8",
